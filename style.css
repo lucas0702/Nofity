@@ -25,15 +25,19 @@ body{
         height: 40vw;
         justify-content: center;
         align-items: center;
-       
+        flex-direction: column;
+        height: 40vw;
+
     }
 
-    header h3{
+    header h3{ font-family: "pacifico";
+        font-size: 1.5rem;
+        font-weight: 100;
       
     }
 
     #imagens-header div{
-        display: flex;  
+
         background-color: rgba(0, 0, 0, 0.4);
         border-radius: 100%;
         padding: 10px;
@@ -42,14 +46,26 @@ body{
     }
 
     #imagnes-header{
-        widows: 50%;
-justify-content: space-around
+     display: flex;
+     justify-content: space-around;
+     width: 50%;
 
     }
 
     #imagem-header div:hover{
         background-color: #2dcc70
     }
+
+header #mao {
+align-self: flex-end;
+display: none;
+margin-left: 20px;
+height: 80%;
+}
+
+header #mao img {
+    height: 100%;
+}
 
     main{
         grid-area:main;
